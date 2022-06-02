@@ -5,11 +5,11 @@ A site like pastebin and other pastes sites!
 # **Features** :
 
 ```diff
-- Publish pastes
-- Save pastes
-- Change title
-- Download paste
-- And more....
++ Publish pastes
++ Save pastes
++ Change title
++ Download paste
++ And more....
 ```
 # How to setup? 
 
