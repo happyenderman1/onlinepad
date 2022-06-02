@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Online pad</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  <script
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link rel="stylesheet"
+href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script
+src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta content="OnlinePad" property="og:title" />
+<meta content="OnlinePad is a online notepad,You can use it to create save,download,copy, files contents! " property="og:description" />
+<meta content="https://OnlinePad.happyenderyt.repl.co" property="og:url" />
+<meta content="https://cdn-icons-png.flaticon.com/512/588/588395.png" property="og:image" />
+<meta content="#43B581" data-react-helmet="true" name="theme-color" />
+	</head>
+  <body style="background-color: darkgoldenrod;">
+		<div class="dropdown">
+	<button class="btn btn-primary dropdown-toggle" type="button"
+	data-toggle="dropdown">
+	File <span class="caret"></span>
+</button>
+
+		<br>
+		<center>
+		<h1 style="color: black" class="title">Online Pad</h1>
+		️<button onclick="show_cn()" class="btn btn-primary">✏️️ Edit Document name</button> <h3 id="name"></h3>
+		<div id="change_name">
+			<input type="text" id="new_name" style="width:200px;height:80px"class="form-control mr-sm-2" placeholder="Enter new name">
+			<button class="btn btn-primary" onclick="change_name()">Change name</button>
+			<button class="btn btn-danger" onclick="close_cn()">Cancel</button>
+	 </div>
+		</div>
+
+
+	 <br>
+	 <br>
+	 <textarea  id="e" style="width: 589px; height: 183px;" class="form-control mr-sm-2" placeholder="Enter text here "></textarea>
+	 <br>
+	    <script src="view.js"></script>		 
+	</center>
+
+  </body>
+</html>
