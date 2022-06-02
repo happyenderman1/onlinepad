@@ -4,13 +4,13 @@ A site like pastebin and other pastes sites!
 
 # **Features** :
 
-``diff
+```diff
 - Publish pastes
 - Save pastes
 - Change title
 - Download paste
 - And more....
-``
+```
 # How to setup? 
 
 It's simple, just paste this code on your console
